@@ -21,7 +21,7 @@ crud-multidropdown
 |__index.php
 |__README.md
 ```
-2. Import file `cidropdown.sql` di dalam folder `sql/cidropdown.sql`ke phpmyadmin.
+2. Import file `cidropdown.sql` di dalam folder `sql/cidropdown.sql` ke phpmyadmin.
 3. Ketik `localhost/crud-multidropdown` di browser lalu silahkan pilih salah satu opsi:
 
   * Dependent Dropdown (Mahasiswa)
