@@ -18,7 +18,28 @@ berkat function [unlink()](http://php.net/manual/en/function.unlink.php)
 yang telah disediakan oleh PHP.
 
 ## Apa yang diperlukan
-Untuk membuat gambar terlihat (preview) ketika menambah atau mengedit, diperlukan plugin
+1. Tempatkan folder `system` yang telah anda download di website [CodeIgniter](https://codeigniter.com/download) dan taruh di dalam root folder `upload-image` sehingga struktur foldernya seperti dibawah ini:<br>
+```
+upload-image
+|_application
+|_system
+|_asset
+|_images
+|_screenshots
+|_.htaccess
+|_.gitignore
+|_README.md
+|_index.php
+```
+2. Untuk membuat gambar terlihat (preview) ketika menambah atau mengedit, diperlukan plugin
 jQuery Upload Preview yang tersedia di `asset/js/jquery.uploadPreview.min.js` dan beberapa konfigurasi yang berada di Controller Uploadimage.php. Untuk lebih detail mengenai jQuery uploadPreview anda bisa membacanya di [sini](http://opoloo.github.io/jquery_upload_preview/)
 
 ## Screenshots
+### Upload Image (Homepage)<br>
+![alt-text](https://github.com/satyakresna/codeigniter-example/blob/master/upload-image/screenshots/Homepage.png "Homepage.png")<br>
+### Upload Image (Add)<br>
+![alt-text](https://github.com/satyakresna/codeigniter-example/blob/master/upload-image/screenshots/Upload%20Image%20add.png "Add.png")<br>
+### Upload Image (Edit)<br>
+![alt-text](https://github.com/satyakresna/codeigniter-example/blob/master/upload-image/screenshots/Upload%20Image%20edit.png "Edit.png")<br>
+### Upload Image (Delete)<br>
+![alt-text](https://github.com/satyakresna/codeigniter-example/blob/master/upload-image/screenshots/Upload%20Image%20delete.png "Delete.png")
