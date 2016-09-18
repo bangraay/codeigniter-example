@@ -28,6 +28,3 @@ crud-multidropdown
   * Multiple Dropdown (SKKM)
 
 4. Saya telah menyimpan file `jquery.min.js` di dalam folder `assets`. Fungsi inilah yang akan menjalankan AJAX.
-
-## Ada kendala atau mau berkontribusi?
-Jika ada kendala silahkan anda kirimkan pesan ke bagian `issues` atau `pull request`
