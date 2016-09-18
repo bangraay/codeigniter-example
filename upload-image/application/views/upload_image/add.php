@@ -6,6 +6,7 @@
     <title>Upload Image</title>
     <link rel="stylesheet" href="<?php echo base_url('asset/css/bootstrap.min.css'); ?>">
 
+    <!-- Style CSS provided by jQuery Upload Preview -->
     <style>
         #image-preview {
             height: 400px;
@@ -46,6 +47,7 @@
 
     <div class="container">
       <div class="col-md-4 col-md-offset-4">
+        <?php echo $this->session->userdata('message'); ?>
         <?php echo form_open_multipart('uploadimage/store'); ?>
           <div class="form-group">
             <?php echo form_label('Nama File', 'namaFile'); ?>
