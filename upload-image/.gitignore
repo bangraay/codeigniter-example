@@ -28,3 +28,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # I want to ignore this:
 system
+images/*

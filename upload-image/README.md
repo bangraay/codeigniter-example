@@ -17,4 +17,8 @@ gambar sebelumnya akan tetap tersimpan di dalam folder `images` dan di database.
 berkat function [unlink()](http://php.net/manual/en/function.unlink.php)
 yang telah disediakan oleh PHP.
 
+## Apa yang diperlukan
+Untuk membuat gambar terlihat (preview) ketika menambah atau mengedit, diperlukan plugin
+jQuery Upload Preview yang tersedia di `asset/js/jquery.uploadPreview.min.js` dan beberapa konfigurasi yang berada di Controller Uploadimage.php. Untuk lebih detail mengenai jQuery uploadPreview anda bisa membacanya di [sini](http://opoloo.github.io/jquery_upload_preview/)
+
 ## Screenshots
