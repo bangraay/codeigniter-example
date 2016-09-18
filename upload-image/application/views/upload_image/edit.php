@@ -65,6 +65,7 @@
           <div class="form-group">
             <label>File Foto</label> <span class="label label-success">Ukuran maksimal 2 MB. Format file: jpeg, jpg, dan png.</span>
             <?php echo form_error('filefoto'); ?>
+            <!-- style:background-image is the main actor to show preview image while edit  -->
             <div id="image-preview" style="background-image: url(<?php echo base_url('images/'.$filefoto); ?>)">
                 <label for="image-upload" id="image-label">Choose File</label>
                 <input type="file" name="filefoto" id="image-upload"/>
