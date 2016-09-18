@@ -38,7 +38,7 @@ class Uploadimage extends CI_Controller {
 
 		if (!$this->upload->do_upload('filefoto')) {
 			$this->session->set_flashdata('message', "<div style='color:#ff0000;'>" . $this->upload->display_errors() . "</div>");
-			redirect(site_url('mahasiswa/skkm/create'));
+			redirect(site_url('uploadimage/create'));
 		} else {
 			$file = $this->upload->data();
 			$data = array(
