@@ -15,10 +15,7 @@
         <div class="col-md-12">
           <a href="<?php echo site_url('mahasiswa/tambah'); ?>">Tambah Mahasiswa</a>
           <br>
-          <div class="alert alert-dismissible alert-success">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
             <?php echo $this->session->userdata('message'); ?>
-          </div>
           <table class="table">
             <thead>
               <th>No</th>
